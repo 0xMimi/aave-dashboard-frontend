@@ -12,6 +12,16 @@ function About() {
                     here
                 </a>
             </p>
+            <p>and</p>
+            <p>
+                <a
+                    href="https://github.com/0xMimi/aave-dashboard-frontend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    here
+                </a>
+            </p>
             <p>Most Aave data is from the Messari subgraphs</p>
             <p>
                 <a
