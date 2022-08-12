@@ -34,8 +34,8 @@ function Navbar({
     curPage,
 }: Props) {
     const [tempAddress, setTempAddress] = useState<string>();
-    const [tempVersion, setTempVersion] = useState<string>("v3");
-    const [tempMarket, setTempMarket] = useState<string>("avalanche");
+    const [tempVersion, setTempVersion] = useState<string>("v2");
+    const [tempMarket, setTempMarket] = useState<string>("ethereum");
 
     const handleAddressChange = (e: any) => {
         setTempAddress(e.target.value);

@@ -37,10 +37,10 @@ function App() {
         positions: [],
     });
     const [address, setAddress] = useState(
-        "0x667ed8cb7cf2b83ff9922a1357b104f9f11ee6f9"
+        "0xdaef20ea4708fcff06204a4fe9ddf41db056ba18"
     );
-    const [version, setVersion] = useState("v3");
-    const [market, setMarket] = useState("avalanche");
+    const [version, setVersion] = useState("v2");
+    const [market, setMarket] = useState("ethereum");
     const [revenue, setRevenue] = useState(0);
     const [cost, setCost] = useState(0);
     const [nbTx, setNbTx] = useState(0);
